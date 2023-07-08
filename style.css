@@ -61,10 +61,6 @@ border-radius: 5px;
     border-radius: 50%;
    
 }
-.about-image img{
-    align-items: center;
-}
-
 
  .about-content .about-title{
     color: #151414;
@@ -88,3 +84,22 @@ line-height: 26px;
     height: 24px;
     color: #16D887;
 }
+
+/* plan section style */
+.plan-section{
+    margin: 200px 700px 100px 700px;
+}
+.plan-title{
+color:#151414;
+font-size: 40px;
+}
+.plan-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.plan-content{
+    padding: 14px 80px;
+}
+
+
