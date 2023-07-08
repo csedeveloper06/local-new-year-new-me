@@ -5,14 +5,17 @@ font-family: 'Work Sans', sans-serif;
 /* header section styles */
 header{
     background-image: url('../../images/banner/banner1.png');
-    background-repeat: none;
-    background-size: cover;
-    max-height: 1600px;
-    width: auto;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 800px;
+    padding: 210px 230px 24px 800px;
+    margin: 50px;
 }
 .banner{
-    padding: 216px 130px 24px 900px;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .banner-title{
@@ -37,4 +40,6 @@ background: #F15B22;
 position: bottom left;
 color: #FFF;
 font-size: 20px;
+border: 0;
+border-radius: 5px;
 } 
