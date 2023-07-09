@@ -129,4 +129,46 @@ font-size: 40px;
     font-weight: 600;
 }
 
+/* footer section styles */
+.footer-section{
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .future-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+address{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.icons{
+    margin-left: -80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+section form label{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 150px;
+}
+
+
+
+
 
